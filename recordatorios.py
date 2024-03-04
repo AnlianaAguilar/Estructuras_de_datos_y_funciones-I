@@ -4,5 +4,14 @@ recordatorios = [['2021-01-01', "11:00", "Levantarse y ejercitar"],
  ['2021-09-18', "16:00", "Ramadas"],
  ['2021-12-25', "00:00", "Navidad"]]
 
-# Output
+recordatorios.insert(2,['2021-01-02', '06:00', 'Empezar el año'])
+recordatorios[3][0] = '2021-07-16',
+recordatorios.pop(1)
+recordatorios.insert(6, ['2021-12-24', '22:00', 'Cena de Navidad'] )
+recordatorios.insert(7, ['2021-12-31', '22:00', 'Cena de Año Nuevo'] )
+
+
 print(recordatorios)
+
+
+
